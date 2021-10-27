@@ -1,0 +1,22 @@
+.herobanner {
+  height: 420px;
+}
+
+.container {
+  height: 758px;
+  max-width: 1080px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.bg-runner {
+  background-image: url('../img/');
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-runner {
+    background-image: url('../img/Skjermbilde\ 2021-10-27\ kl.\ 12.46.53.png');
+  }
+}
