@@ -1,5 +1,5 @@
 .herobanner {
-  height: 420px;
+  height: 758px;
 }
 
 .container {
@@ -10,13 +10,25 @@
 }
 
 .bg-runner {
-  background-image: url('../img/');
+  background-image: url('../img/mobile-banner.jpg');
   background-repeat: no-repeat;
   background-position: top left;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .bg-runner {
-    background-image: url('../img/Skjermbilde\ 2021-10-27\ kl.\ 12.46.53.png');
+    background-image: url('../img/mobile-banner.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-runner {
+    background-image: url('../img/tablet-banner.jpg');
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .bg-runner {
+    background-image: url('../img/desktop-banner.jpg');
   }
 }
